@@ -15,6 +15,7 @@ class MainViewController: UIViewController {
         generateQuestions()
         configureView()
 //        UserDefaultsHelper.setInteger(key: "LoginType", value: 2)
+
         UserDefaultsHelper.setInteger(key: UserDefaultsKey.loginType.rawValue, value: 2)
     }
 
